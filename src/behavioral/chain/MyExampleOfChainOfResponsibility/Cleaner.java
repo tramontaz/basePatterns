@@ -8,6 +8,6 @@ class Cleaner extends AccessLevel {
 
     @Override
     void write(String alert) {
-        System.out.println("Cleaner has this access level: " + alert);
+        System.out.println("The cleaner " + alert);
     }
 }

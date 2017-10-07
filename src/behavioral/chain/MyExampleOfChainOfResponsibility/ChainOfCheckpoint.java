@@ -10,8 +10,8 @@ public class ChainOfCheckpoint {
         cleaner.setNextAccessLevel(engineer);
         engineer.setNextAccessLevel(boss);
 
-        cleaner.accessManager("Cleaner stopped on the first floor", ValueOfAccessLevel.LEVEL_ONE);
-        cleaner.accessManager("Engineer stopped on the second floor", ValueOfAccessLevel.LEVEL_TWO);
-        cleaner.accessManager("Boss stopped on the third floor", ValueOfAccessLevel.LEVEL_THREE );
+        cleaner.accessManager("was on the first floor...", ValueOfAccessLevel.LEVEL_ONE);
+        cleaner.accessManager("was on the second floor...", ValueOfAccessLevel.LEVEL_TWO);
+        cleaner.accessManager("was on the third floor...", ValueOfAccessLevel.LEVEL_THREE );
     }
 }

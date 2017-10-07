@@ -8,6 +8,6 @@ class Boss extends AccessLevel {
 
     @Override
     void write(String alert) {
-        System.out.println("Boss has this access level: " + alert);
+        System.out.println("The boss " + alert);
     }
 }
